@@ -32,6 +32,5 @@ Error: Process completed with exit code 1.
 ## How to reproduce the issue
 
 1. Fork this repository
-2. Run the workflow
+2. Push to any branch to run the workflow
 3. Run the workflow again
-
