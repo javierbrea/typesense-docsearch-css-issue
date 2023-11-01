@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   typesense-docsearch.js:
-    specifier: 3.4.0
-    version: 3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)
+    specifier: 3.4.1
+    version: 3.4.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)
 
 packages:
 
@@ -183,8 +183,8 @@ packages:
     resolution: {integrity: sha512-mN8K18pfIpCrhzsMAJBzoS7l/YDcC4P3f9vsScenUceXmC8n3FCPldmF10dKDJmK3Lr7aAScQt70jCA5126y2w==}
     dev: false
 
-  /typesense-docsearch-react@3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0):
-    resolution: {integrity: sha512-87M0ktGiSmJ4m9VpJKC3gD6w31ZhctdB34c6aguLJXsiLDydNF+ipBYuCYE26D47rx/KLk82rsiZwovjaagZnw==}
+  /typesense-docsearch-react@3.4.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0):
+    resolution: {integrity: sha512-d0PQym/B/p5oP+hfdFEOH6goiKa1JLR63bikZSDGq1+jT2FtuwNrdMGVBZZMNFUsXVsJRA8ULHJpsREmfSJmVw==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
       react: '>= 16.8.0 < 19.0.0'
@@ -209,11 +209,11 @@ packages:
       - debug
     dev: false
 
-  /typesense-docsearch.js@3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0):
-    resolution: {integrity: sha512-/8lTw29ub13PlCniKt7LnGDljHon1i646+CpKBBcSrxNRbXoDTcda4Mr2m0nkm+gtFUeb81RTri4Yc8FZvyCLQ==}
+  /typesense-docsearch.js@3.4.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0):
+    resolution: {integrity: sha512-JasanoVWL3iA7+frUvjO3n4wVSgF3b39Qu8HEqmzIyELqEDy59HcyNbolKOVx9EGUu1vWy/TUEE5tJxOQZ1Umg==}
     dependencies:
       preact: 10.18.1
-      typesense-docsearch-react: 3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)
+      typesense-docsearch-react: 3.4.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@babel/runtime'
