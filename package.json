@@ -1,6 +1,6 @@
 {
   "private": true,
   "dependencies": {
-    "typesense-docsearch.js": "3.4.0"
+    "docusaurus-theme-search-typesense": "0.13.0"
   }
 }
