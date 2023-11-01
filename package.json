@@ -1,6 +1,6 @@
 {
   "private": true,
   "dependencies": {
-    "typesense-docsearch-react": "3.4.0"
+    "typesense-docsearch-react": "3.4.1"
   }
 }
