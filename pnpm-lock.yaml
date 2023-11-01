@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  typesense-docsearch-react:
+  typesense-docsearch.js:
     specifier: 3.4.0
     version: 3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)
 
@@ -171,6 +171,10 @@ packages:
     engines: {node: '>= 0.6.0'}
     dev: false
 
+  /preact@10.18.1:
+    resolution: {integrity: sha512-mKUD7RRkQQM6s7Rkmi7IFkoEHjuFqRQUaXamO61E6Nn7vqF/bo7EZCmSyrUnp2UWHw0O7XjZ2eeXis+m7tf4lg==}
+    dev: false
+
   /regenerator-runtime@0.14.0:
     resolution: {integrity: sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==}
     dev: false
@@ -203,6 +207,21 @@ packages:
       - '@babel/runtime'
       - algoliasearch
       - debug
+    dev: false
+
+  /typesense-docsearch.js@3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0):
+    resolution: {integrity: sha512-/8lTw29ub13PlCniKt7LnGDljHon1i646+CpKBBcSrxNRbXoDTcda4Mr2m0nkm+gtFUeb81RTri4Yc8FZvyCLQ==}
+    dependencies:
+      preact: 10.18.1
+      typesense-docsearch-react: 3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@babel/runtime'
+      - '@types/react'
+      - algoliasearch
+      - debug
+      - react
+      - react-dom
     dev: false
 
   /typesense-instantsearch-adapter@2.7.1(@babel/runtime@7.23.2):
