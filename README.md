@@ -53,7 +53,7 @@ Error: Process completed with exit code 1.
 
 ## Possible cause
 
-The issue seems to be related to the fact that the [`typesense-docsearch-css@0.4.0` package] (https://www.npmjs.com/package/typesense-docsearch-css/v/0.4.0?activeTab=code) was published with the same version number as a previous version of the package.
+The issue seems to be related to the fact that the [`typesense-docsearch-css@0.4.0` package](https://www.npmjs.com/package/typesense-docsearch-css/v/0.4.0?activeTab=code) was published with the same version number as a previous version of the package.
 
 ![NPM page screenshot](./docs/npm-page-screenshot.png)
 
