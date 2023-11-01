@@ -1,6 +1,6 @@
 {
   "private": true,
   "dependencies": {
-    "typesense-docsearch-css": "0.4.0"
+    "typesense-docsearch-css": "0.4.1"
   }
 }
