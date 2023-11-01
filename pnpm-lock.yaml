@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   docusaurus-theme-search-typesense:
-    specifier: 0.13.0
-    version: 0.13.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(@docusaurus/core@2.4.3)(@docusaurus/theme-common@2.4.3)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2)(typescript@5.2.2)
+    specifier: 0.13.1
+    version: 0.13.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(@docusaurus/core@2.4.3)(@docusaurus/theme-common@2.4.3)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2)(typescript@5.2.2)
 
 packages:
 
@@ -478,7 +478,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.12.9
-      '@babel/helper-plugin-utils': 7.10.4
+      '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.12.9)
       '@babel/plugin-transform-parameters': 7.22.15(@babel/core@7.12.9)
     dev: false
@@ -3837,8 +3837,8 @@ packages:
       '@leichtgewicht/ip-codec': 2.0.4
     dev: false
 
-  /docusaurus-theme-search-typesense@0.13.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(@docusaurus/core@2.4.3)(@docusaurus/theme-common@2.4.3)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2)(typescript@5.2.2):
-    resolution: {integrity: sha512-A1zszRcLrNv5j6uTFeLBLAxaOK1Kx+wDteZmIyzlj3AbM7sS/FHnmgd6NoJLHY+ok6eHi9x18MMunppCQPlppQ==}
+  /docusaurus-theme-search-typesense@0.13.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(@docusaurus/core@2.4.3)(@docusaurus/theme-common@2.4.3)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2)(typescript@5.2.2):
+    resolution: {integrity: sha512-b9va1L5j+6S0NT19KD80WNu185zz9nMwxmMpxWte6pFsG1bzL1BESLIvWCoAtM5GVzPSJ2FYekNO92herpGgEQ==}
     engines: {node: '>=16.14'}
     peerDependencies:
       '@docusaurus/core': 2.4.3
@@ -3861,7 +3861,7 @@ packages:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       tslib: 2.6.2
-      typesense-docsearch-react: 3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2)
+      typesense-docsearch-react: 3.4.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2)
       typesense-instantsearch-adapter: 2.7.1(@babel/runtime@7.23.2)
       utility-types: 3.10.0
     transitivePeerDependencies:
@@ -7465,8 +7465,8 @@ packages:
     resolution: {integrity: sha512-mN8K18pfIpCrhzsMAJBzoS7l/YDcC4P3f9vsScenUceXmC8n3FCPldmF10dKDJmK3Lr7aAScQt70jCA5126y2w==}
     dev: false
 
-  /typesense-docsearch-react@3.4.0(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha512-87M0ktGiSmJ4m9VpJKC3gD6w31ZhctdB34c6aguLJXsiLDydNF+ipBYuCYE26D47rx/KLk82rsiZwovjaagZnw==}
+  /typesense-docsearch-react@3.4.1(@algolia/client-search@4.20.0)(@babel/runtime@7.23.2)(algoliasearch@4.20.0)(react-dom@17.0.2)(react@17.0.2):
+    resolution: {integrity: sha512-d0PQym/B/p5oP+hfdFEOH6goiKa1JLR63bikZSDGq1+jT2FtuwNrdMGVBZZMNFUsXVsJRA8ULHJpsREmfSJmVw==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
       react: '>= 16.8.0 < 19.0.0'

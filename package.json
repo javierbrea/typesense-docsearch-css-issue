@@ -1,6 +1,6 @@
 {
   "private": true,
   "dependencies": {
-    "docusaurus-theme-search-typesense": "0.13.0"
+    "docusaurus-theme-search-typesense": "0.13.1"
   }
 }
